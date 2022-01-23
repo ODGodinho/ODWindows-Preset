@@ -97,3 +97,4 @@ Executed actions description:
 #### General
 
 - [ ] [Discord](https://discord.com/)
+- [ ] [Whatsapp Web Beta](https://web.whatsapp.com/)

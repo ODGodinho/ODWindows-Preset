@@ -29,9 +29,6 @@ winget install --location=`"$($PathSSD)\VsCode`" -e --id Microsoft.VisualStudioC
 
 ## GAMES
 
-# Install Discord
-winget install --location=`"$($PathSSD)\Discord`"  -e --id Discord.Discord
-
 # Steam Install
 winget install --location=`"$($PathSSD)\Steam`" -e --id Valve.Steam
 
@@ -55,6 +52,15 @@ winget install -e --id Microsoft.VC++2015-2022Redist-x64
 
 # Ubuntu terminal
 winget install --location=`"$($PathHD)\Ubuntu`" -e --id Canonical.Ubuntu.2004
+
+
+# General
+
+# Install Discord
+winget install --location=`"$($PathSSD)\Discord`"  -e --id Discord.Discord
+
+# Install Whastapp Web Beta
+winget install --location=`"$($PathHD)\WhastappWebBeta`" -e --id WhatsApp.WhatsApp.Beta
 
 
 if ($null -eq $userName) {
