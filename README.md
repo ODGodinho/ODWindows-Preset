@@ -86,9 +86,12 @@ Executed actions description:
 - [ ] [NVidia](https://www.nvidia.com/pt-br/)
 - [ ] [OBS Studio](https://obsproject.com/)
 - [ ] [Corsair ICue 4](https://www.corsair.com/icue)
+- [ ] [Logitech GHub](https://www.logitechg.com/pt-br/innovation/g-hub.html)
 - [ ] [Origin Play / Ea Games](https://www.origin.com/)
 - [ ] [Microsoft VC++ 2015 - 2022](https://docs.microsoft.com/pt-br/cpp/windows/latest-supported-vc-redist)
 - [ ] [WSL Ubuntu](https://ubuntu.com/wsl)
+- [ ] [Direct Play](#)
+- [ ] [DirectX 12](https://winget.run/pkg/Microsoft/PIX)
 
 #### General
 

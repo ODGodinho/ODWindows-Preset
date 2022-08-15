@@ -1,5 +1,8 @@
 ## GAMES
 
+# Direct Play active
+dism.exe /online /enable-feature /FeatureName:"DirectPlay" /NoRestart
+
 # Steam Install
 winget install --location=`"$($PathSSD)\Steam`" -e --id Valve.Steam
 
@@ -18,8 +21,14 @@ winget install --location=`"$($PathHD)\ICue`" -e --id Corsair.iCUE.4
 # Origin Play / Ea Play
 winget install --location=`"$($PathHD)\OriginPlay`" -e --id ElectronicArts.EADesktop
 
+# Install Logitec hub
+winget install --location=`"$($PathHD)\LogitechGHub`" -e --id Logitech.GHUB
+
 # Visual c++ 2015 a 2022
 winget install -e --id Microsoft.VC++2015-2022Redist-x64
+
+# DirectX Microsoft
+winget install -e --id Microsoft.PIX
 
 # Ubuntu terminal
 winget install --location=`"$($PathHD)\Ubuntu`" -e --id Canonical.Ubuntu.2004
