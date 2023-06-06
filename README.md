@@ -78,6 +78,7 @@ Executed actions description:
 - [ ] [Yarn nodejs](https://yarnpkg.com/)
 - [ ] [Docker](https://www.docker.com/)
 - [ ] [VsCode Stable](https://code.visualstudio.com/)
+- [ ] [Terminal Windows](https://apps.microsoft.com/store/detail/windows-terminal)
 
 #### Gaming
 

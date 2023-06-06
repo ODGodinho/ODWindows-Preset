@@ -11,9 +11,14 @@ winget install  --location=`"$($PathSSD)\Yarn`" -e --id Yarn.Yarn
 
 # Docker install
 winget install --location=`"$($PathSSD)\Docker`"  -e --id Docker.DockerDesktop
+wsl --update
+wsl --set-default ubuntu-22.04
 
 # Vscode
 winget install --location=`"$($PathSSD)\VsCode`" -e --id Microsoft.VisualStudioCode
+
+# Terminal do Windows
+winget install -e --id Microsoft.WindowsTerminal
 
 
 if ($null -eq $userName) {
